@@ -188,6 +188,10 @@ textarea {
     line-height: 2em;
 }
 
+option {
+  color: black;
+}
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
