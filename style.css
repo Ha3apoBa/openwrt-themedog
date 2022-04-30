@@ -321,17 +321,18 @@ footer > a {
   width: 100%;
   border-top: var(--navBorder);
   text-align: center;
-  height:calc(50px + constant(safe-area-inset-bottom));
-  height:calc(50px + env(safe-area-inset-bottom));
+  height:calc(58px + constant(safe-area-inset-bottom));
+  height:calc(58px + env(safe-area-inset-bottom));
   background-color: var(--navbgColor);
     -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+
 }
 
 .navbar a {
     float: left;
     text-align: center;
-    padding: 8px 0;
+    padding: 13px 0;
     width: 26%;
     text-decoration: none;
     max-width: 100px;
@@ -439,8 +440,8 @@ footer > a {
     height: 100%;
     font-size: 0.85rem;
     background-color: #4f4e4a;
+    text-shadow: -1px 0 #1f1e1a, 0 1px #1f1e1a, 1px 0 #1f1e1a, 0 -1px #1f1e1a, 0 0 3px #1f1e1a;
     
-    text-shadow: 1px 0 #1f1e1a,  0 0 1px #1f1e1a;
 
 }
 
@@ -2404,3 +2405,4 @@ pre, textarea {
         min-width: 25rem;
     }
 }
+
